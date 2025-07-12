@@ -134,6 +134,11 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Model artifacts
+artifacts/
+*.pkl
+*.joblib
+
 # Environments
 .env
 .envrc
